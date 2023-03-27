@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random as rd
 
-n_samples = 10
+n_samples = 100
 
 w2 = 1/2
 w1 = 3
@@ -60,6 +60,6 @@ for i in range(1, 8 + 1, 1):
   axs[1, 1].set_title("All together")
 
   # plt.show()
-  plt.savefig("fig" + str(i))
+  plt.savefig("relatorio/figures/fig" + str(i) + "_" + str(n_samples))
 
 # print(values)

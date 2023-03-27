@@ -22,6 +22,8 @@
 \usepackage[shortlabels]{enumitem}
 \usepackage[version=4]{mhchem}
 \usepackage{multicol}
+\usepackage{caption}
+\usepackage{forloop}
 
 \newcommand{\blah}{blah blah blah \dots}
 
@@ -110,19 +112,6 @@ Other \dotfill \theother \\[0.5cm]
 
 %To use symbols for footnotes
 \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
-%To change footnotes back to numbers uncomment the following line
-%\renewcommand*{\thefootnote}{\arabic{footnote}}
-
-% Enable this command to adjust line spacing for inline math equations.
-% \everymath{\displaystyle}
-
-% _______ _____ _______ _      ______ 
-%|__   __|_   _|__   __| |    |  ____|
-%   | |    | |    | |  | |    | |__   
-%   | |    | |    | |  | |    |  __|  
-%   | |   _| |_   | |  | |____| |____ 
-%   |_|  |_____|  |_|  |______|______|
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title{
 \normalfont \normalsize 
@@ -145,8 +134,40 @@ Professor \dotfill Frederico Coelho \\
 
 \section{Introdução}
 
-  Este trabalho foi realizado utilizando Python 3 e a biblioteca NumPy. O código está disponível em 
+Este trabalho foi realizado utilizando Python 3 e a biblioteca NumPy. O código está disponível em \url{https://github.com/hnguima/poly_approx_rna/}.
 
-\section{Purpose}
+\section{Exercícios}
+
+\begin{enumerate}
+  
+  \item{
+    Abaixo estão plotados os gráficos para a aproximação polinomial com grau de 1 a 8, para 10 amostras: \par
+
+    \newcounter{x}
+    \forloop{x}{1}{\value{x} < 9}{
+      \includegraphics[width=\linewidth,height=10cm]{figures/fig\arabic{x}_10.png} \par
+    }
+  }
+  \item{
+    É possível perceber \emph{overfitting} do polinômio de grau 3 até 8, o que é esperado dado que o polinômio de entrada é de grau 2. \par
+    Já em graus menores que 2 (grau 1\dots) é possível notar o efeito de \emph{underfitting}.\par 
+  }
+  \item{
+    Abaixo estão plotados os gráficos para a aproximação polinomial com grau de 1 a 8, para 100 amostras: \par
+
+    \forloop{x}{1}{\value{x} < 9}{
+      \includegraphics[width=\linewidth,height=10cm]{figures/fig\arabic{x}_100.png} \par
+    }
+
+    É possível notar que com o maior número de amostras o efeito de \emph{overfitting} foi menos presente, podendo ser notado em menor nível apenas nos polinômios de grau mais elevado (7 e 8). \par
+    O \emph{underfitting} não foi corrigido e é ainda bem aparente no polinômio de grau 1.
+  }
+  \item{
+    O processo de aproximação polinomial pode se assimilar com uma Rede Neural Artificial, considerando que o processo de aproximação por camadas lembra a operação matemática de um \emph{neurônio} de uma RNA.\par
+    Outra semelhança notável é que a aproximação por camadas necessita de \emph{treinamento} (assim como uma RNA) e quanto maior a qualidade dos dados amostrados, melhor a aproximação dos seus coeficientes.\par 
+    É importante perceber, no entanto, que uma Rede Neural Artificial pode ser (e geralmente será) mais complexa que uma aproximação polinomial. 
+
+  }
+\end{enumerate}
 
 \end{document} 

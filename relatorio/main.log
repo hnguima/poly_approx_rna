@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.22)  26 MAR 2023 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.22)  26 MAR 2023 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,40 +820,59 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \mult@nat@firstbox=\box125
 \colbreak@box=\box126
 \mc@col@check@num=\count355
+) (c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (c:/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen321
+\captionmargin=\dimen322
+\caption@leftmargin=\dimen323
+\caption@rightmargin=\dimen324
+\caption@width=\dimen325
+\caption@indent=\dimen326
+\caption@parindent=\dimen327
+\caption@hangindent=\dimen328
+Package caption Info: Standard document class detected.
 )
-\c@points=\count356
-\c@spelling=\count357
-\c@english=\count358
-\c@units=\count359
-\c@other=\count360
-\c@source=\count361
-\c@concept=\count362
-\c@missing=\count363
-\c@math=\count364
-\c@terms=\count365
-\c@clarity=\count366
-\c@late=\count367
+\c@caption@flags=\count356
+\c@continuedfloat=\count357
+Package caption Info: hyperref package is loaded.
+) (c:/texlive/2022/texmf-dist/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+)
+\c@points=\count358
+\c@spelling=\count359
+\c@english=\count360
+\c@units=\count361
+\c@other=\count362
+\c@source=\count363
+\c@concept=\count364
+\c@missing=\count365
+\c@math=\count366
+\c@terms=\count367
+\c@clarity=\count368
+\c@late=\count369
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -891,16 +910,16 @@ LaTeX Font Info:    ... okay on input line 139.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count368
-\scratchdimen=\dimen321
+\scratchcounter=\count370
+\scratchdimen=\dimen329
 \scratchbox=\box127
-\nofMPsegments=\count369
-\nofMParguments=\count370
+\nofMPsegments=\count371
+\nofMParguments=\count372
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count371
-\MPscratchDim=\dimen322
-\MPnumerator=\count372
-\makeMPintoPDFobject=\count373
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen330
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
 \everyMPtoPDFconversion=\toks57
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -908,46 +927,137 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 139.
-Package hyperref Info: Link coloring OFF on input line 139.
+Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 128.
+Package hyperref Info: Link coloring OFF on input line 128.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 
-Package chemgreek Info: Activating mapping `default' on line 139.
+Package chemgreek Info: Activating mapping `default' on line 128.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 142--145
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
+\c@x=\count376
+<figures/fig1_10.png, id=16, 722.7pt x 578.16pt>
+File: figures/fig1_10.png Graphic file (type png)
+<use figures/fig1_10.png>
+Package pdftex.def Info: figures/fig1_10.png  used on input line 149.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
 [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<figures/fig2_10.png, id=30, 722.7pt x 578.16pt>
+File: figures/fig2_10.png Graphic file (type png)
+<use figures/fig2_10.png>
+Package pdftex.def Info: figures/fig2_10.png  used on input line 149.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+<figures/fig3_10.png, id=31, 722.7pt x 578.16pt>
+File: figures/fig3_10.png Graphic file (type png)
+<use figures/fig3_10.png>
+Package pdftex.def Info: figures/fig3_10.png  used on input line 149.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+ [2 <./figures/fig1_10.png> <./figures/fig2_10.png>]
+<figures/fig4_10.png, id=38, 722.7pt x 578.16pt>
+File: figures/fig4_10.png Graphic file (type png)
+<use figures/fig4_10.png>
+Package pdftex.def Info: figures/fig4_10.png  used on input line 149.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+<figures/fig5_10.png, id=39, 722.7pt x 578.16pt>
+File: figures/fig5_10.png Graphic file (type png)
+<use figures/fig5_10.png>
+Package pdftex.def Info: figures/fig5_10.png  used on input line 149.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+ [3 <./figures/fig3_10.png> <./figures/fig4_10.png>]
+<figures/fig6_10.png, id=46, 722.7pt x 578.16pt>
+File: figures/fig6_10.png Graphic file (type png)
+<use figures/fig6_10.png>
+Package pdftex.def Info: figures/fig6_10.png  used on input line 149.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+<figures/fig7_10.png, id=47, 722.7pt x 578.16pt>
+File: figures/fig7_10.png Graphic file (type png)
+<use figures/fig7_10.png>
+Package pdftex.def Info: figures/fig7_10.png  used on input line 149.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+ [4 <./figures/fig5_10.png> <./figures/fig6_10.png>]
+<figures/fig8_10.png, id=54, 722.7pt x 578.16pt>
+File: figures/fig8_10.png Graphic file (type png)
+<use figures/fig8_10.png>
+Package pdftex.def Info: figures/fig8_10.png  used on input line 149.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+ [5 <./figures/fig7_10.png> <./figures/fig8_10.png>]
+<figures/fig1_100.png, id=61, 722.7pt x 578.16pt>
+File: figures/fig1_100.png Graphic file (type png)
+<use figures/fig1_100.png>
+Package pdftex.def Info: figures/fig1_100.png  used on input line 160.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+<figures/fig2_100.png, id=62, 722.7pt x 578.16pt>
+File: figures/fig2_100.png Graphic file (type png)
+<use figures/fig2_100.png>
+Package pdftex.def Info: figures/fig2_100.png  used on input line 160.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+ [6 <./figures/fig1_100.png>]
+<figures/fig3_100.png, id=71, 722.7pt x 578.16pt>
+File: figures/fig3_100.png Graphic file (type png)
+<use figures/fig3_100.png>
+Package pdftex.def Info: figures/fig3_100.png  used on input line 160.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+<figures/fig4_100.png, id=72, 722.7pt x 578.16pt>
+File: figures/fig4_100.png Graphic file (type png)
+<use figures/fig4_100.png>
+Package pdftex.def Info: figures/fig4_100.png  used on input line 160.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+ [7 <./figures/fig2_100.png> <./figures/fig3_100.png>]
+<figures/fig5_100.png, id=80, 722.7pt x 578.16pt>
+File: figures/fig5_100.png Graphic file (type png)
+<use figures/fig5_100.png>
+Package pdftex.def Info: figures/fig5_100.png  used on input line 160.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+<figures/fig6_100.png, id=81, 722.7pt x 578.16pt>
+File: figures/fig6_100.png Graphic file (type png)
+<use figures/fig6_100.png>
+Package pdftex.def Info: figures/fig6_100.png  used on input line 160.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+ [8 <./figures/fig4_100.png> <./figures/fig5_100.png>]
+<figures/fig7_100.png, id=88, 722.7pt x 578.16pt>
+File: figures/fig7_100.png Graphic file (type png)
+<use figures/fig7_100.png>
+Package pdftex.def Info: figures/fig7_100.png  used on input line 160.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+<figures/fig8_100.png, id=89, 722.7pt x 578.16pt>
+File: figures/fig8_100.png Graphic file (type png)
+<use figures/fig8_100.png>
+Package pdftex.def Info: figures/fig8_100.png  used on input line 160.
+(pdftex.def)             Requested size: 372.48688pt x 284.52713pt.
+ [9 <./figures/fig6_100.png> <./figures/fig7_100.png>] [10 <./figures/fig8_100.png>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CBB16C55489AB6DE58918028AAE5A9E1;177.
+(rerunfilecheck)             Checksum: CF4BB5DF0D30B2EB2CAB6FD56C3466DC;195.
  ) 
 Here is how much of TeX's memory you used:
- 44129 strings out of 478300
- 1031914 string characters out of 5849123
- 1567928 words of memory out of 5000000
- 61778 multiletter control sequences out of 15000+600000
- 475721 words of font info for 52 fonts, out of 8000000 for 9000
+ 45598 strings out of 478300
+ 1060733 string characters out of 5849123
+ 1591686 words of memory out of 5000000
+ 63202 multiletter control sequences out of 15000+600000
+ 477934 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,7n,94p,545b,780s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (1 page, 65423 bytes).
+ 99i,7n,117p,545b,970s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (10 pages, 1111029 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
